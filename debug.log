@@ -1,0 +1,26 @@
+date: "2014-07-27 10:13:26.689"
+argv: node /usr/bin/hexo g
+os: Linux 3.11.10-100.fc18.x86_64 linux x64
+versions:
+  http_parser: "1.0"
+  node: 0.10.29
+  v8: 3.14.5.9
+  ares: 1.9.0-DEV
+  uv: 0.10.27
+  zlib: 1.2.3
+  modules: "11"
+  openssl: 1.0.1h
+  hexo: 2.8.1
+---
+[debug] 10:13:26.151 Config file loaded from /home/iosNightRoad/hexo/_config.yml[debug] 10:13:26.154 Version info checked successfully[debug] 10:13:26.169 Loading database.[debug] 10:13:26.200 Processed: draft.md (1ms)[debug] 10:13:26.200 Processed: page.md (1ms)[debug] 10:13:26.200 Processed: photo.md (1ms)[debug] 10:13:26.200 Processed: post.md (1ms)[debug] 10:13:26.223 Plugin loaded successfully: hexo-renderer-ejs[debug] 10:13:26.238 Plugin loaded successfully: hexo-renderer-marked[debug] 10:13:26.336 Plugin loaded successfully: hexo-renderer-stylus[debug] 10:13:26.337 Script load successfully: fancybox.js[debug] 10:13:26.355 Processed: _posts/201407251.md (2ms)[debug] 10:13:26.355 Processed: _posts/2014072510.md (0ms)[debug] 10:13:26.356 Processed: _posts/2014072511.md (1ms)[debug] 10:13:26.356 Processed: _posts/2014072514.md (0ms)[debug] 10:13:26.357 Processed: _posts/2014072517.md (1ms)[debug] 10:13:26.357 Processed: _posts/2014072520.md (0ms)[debug] 10:13:26.357 Processed: _posts/2014072523.md (0ms)[debug] 10:13:26.358 Processed: _posts/201407253.md (1ms)[debug] 10:13:26.358 Processed: _posts/201407256.md (0ms)[debug] 10:13:26.359 Processed: _posts/201407259.md (1ms)[debug] 10:13:26.368 Processed: _posts/2014072522.md (1ms)[error] 10:13:26.578 HexoError: Process failed: _posts/2014072516.md
+TypeError: Cannot read property '1' of undefined
+    at /usr/lib/node_modules/hexo/lib/plugins/filter/backtick_code_block.js:32:27
+    at String.replace (native)
+    at module.exports (/usr/lib/node_modules/hexo/lib/plugins/filter/backtick_code_block.js:14:31)
+    at /usr/lib/node_modules/hexo/lib/post/render.js:77:9
+    at iterate (/usr/lib/node_modules/hexo/node_modules/async/lib/async.js:149:13)
+    at Object.async.eachSeries (/usr/lib/node_modules/hexo/node_modules/async/lib/async.js:165:9)
+    at async.series.options (/usr/lib/node_modules/hexo/lib/post/render.js:76:13)
+    at /usr/lib/node_modules/hexo/node_modules/async/lib/async.js:610:21
+    at /usr/lib/node_modules/hexo/node_modules/async/lib/async.js:249:17
+    at iterate (/usr/lib/node_modules/hexo/node_modules/async/lib/async.js:149:13)
